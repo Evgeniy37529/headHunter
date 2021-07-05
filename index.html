@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script async src="js/main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="navbar-mobile py-3 d-flex d-lg-none justify-content-between">
+               
+                <div class="col-2 mb-3">
+                    <a href="" class="logo-link">
+                        <img src="img/logo.svg" alt="">
+                    </a> 
+                </div> 
+                <img src="img/menu-burger.svg" alt="" class="menu-burger-btn">
+            </div>
+            <div class="row py-3 d-flex flex-lg-row flex-column justify-content-center navbar align-items-center">
+                <a class="close-btn">&times;</a>
+                <div class="col-4 col-md-2 mb-3">
+                    <a href="" class="logo-link">
+                        <img src="img/logo.svg" alt="">
+                    </a> 
+                </div>
+                <div class="col-lg d-flex ml-lg-1 justify-content-center align-items-center mb-3">
+                    <nav class="nav">
+                        <ul class="menu d-flex flex-lg-row flex-column justify-content-center align-items-center">
+                            <li class="menu-item">
+                                <a href="" class="nav-link">
+                                    Главная
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="" class="nav-link">
+                                    Вакансии
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="" class="nav-link">
+                                    Компании
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="log-in col-3 d-flex flex-lg-row flex-column align-items-center mb-3">
+                    <a class="button button-link">
+                            Войти
+                    </a>
+                        <a class="button autorized">
+                            Авторизация
+                    </a>
+                </div>
+                
+                
+            </div>
+            <div class="row pt-5 m-xs-auto">
+                <div class="col-lg-5 pt-lg-5 hero d-flex flex-column justify-content-lg-start align-items-lg-start  justify-content-center align-items-center">
+                    <h1 class="hero-title"> Найдите удаленную работу вашей мечты</h1>
+                    <p class="hero-text">
+                        Создайте резюме или отправьте отклик на вакансию <br> в компании с мировым именем и работайте <br> по свободному графику
+                    </p>
+                    <form action="#">
+                        <div class="input-group d-flex justify-content-lg-between">
+                            <input type="text" class="input-text" placeholder="Начните поиск">
+                            <button class="button-serch">
+                                <span class="submit-text d-flex">
+                                    <img class = "input-image " src="img/search.svg" alt="">
+                                    <p class="d-lg-inline flex-lg-nowrap d-none " >Искать вакансии</p>
+                                </span>
+                            </button>
+                        </div>
+                    </form>
+                    <div class="tags d-flex flex-lg-row flex-column  mb-3">
+                        <p class="tag mb-3 mb-lg-0">Например:</p>
+                        <ul class="tag-list d-flex justify-content-center">
+                            <li class="list-item"><a href="" class="tag-link">Front-End</a></li>
+                            <li class="list-item"><a href="" class="tag-link">Back-End</a></li>
+                            <li class="list-item"><a href="" class="tag-link">Designer</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col offset-1 mt-md-3 mt-sm-3">
+                    <img src="img/hero-image.svg" alt="" class="hero-image">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Категории</h2>
+            <div class="row category-cards">
+                <div class="category-card  col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
+                    <a href="" class="category-link d-flex flex-column
+                    align-items-center">
+                        <svg class="icon" width="24px" height="24px">
+                            <use xlink:href="img/icons.svg#brush"></use>
+                        </svg>
+                        <span class="category-text">Дизайн</span>
+                    </a>
+                </div>
+                <div class="category-card  col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
+                    <a href="" class="category-link d-flex flex-column
+                    align-items-center">
+                        <svg class="icon" width="24px" height="24px">
+                            <use xlink:href="img/icons.svg#browser"></use>
+                        </svg>
+                        <span class="category-text">Разработка</span>
+                    </a>
+                </div>
+                <div class="category-card  col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
+                    <a href="" class="category-link d-flex flex-column
+                    align-items-center">
+                        <svg class="icon" width="24px" height="24px">
+                            <use xlink:href="img/icons.svg#copyright"></use>
+                        </svg>
+                        <span class="category-text">Копирайтинг</span>
+                    </a>
+                </div>
+                <div class="category-card  col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
+                    <a href="" class="category-link d-flex flex-column
+                    align-items-center">
+                        <svg class="icon" width="24px" height="24px">
+                            <use xlink:href="img/icons.svg#fingerprint"></use>
+                        </svg>
+                        <span class="category-text">Безопасность</span>
+                    </a>
+                </div>
+                <div class="category-card  col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
+                    <a href="" class="category-link d-flex flex-column
+                    align-items-center">
+                        <svg class="icon" width="24px" height="24px">
+                            <use xlink:href="img/icons.svg#camera"></use>
+                        </svg>
+                        <span class="category-text">Видео</span>
+                    </a>
+                </div>
+                <div class="category-card  col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
+                    <a href="" class="category-link d-flex flex-column
+                    align-items-center">
+                        <svg class="icon" width="24px" height="24px">
+                            <use xlink:href="img/icons.svg#school"></use>
+                        </svg>
+                        <span class="category-text">Образование</span>
+                    </a>
+                </div>
+            </div>
+        </div>    
+    </section>
+        <!-- /.categories -->
+    <section class="vacancy">
+            <div class="container">
+                <div class="row"></div>
+                <h2 class="section-title">Свежие вакансии</h2>
+                <div class="vacancy-card d-flex align-items-center flex-lg-row flex-sm-column ">
+                    <a href="" class="vacancy-logo">
+                        <img class="vacancy-logo-link" src="img/vacancy.png" alt="img: vacancy logotip" width="100px" height="100px">
+                    </a>
+                    <div class="vacancy-text d-sm-flex flex-sm-column  align-items-center">
+                        <h3>Front-end разработчик</h3>
+                        <p class="vacancy-place">Технопарк, Казань</p>
+                    </div>
+                    <span class="salary mt-sm-2 mb-sm-3">65 000 ₽</span>
+                    <div class="requirements d-flex flex-lg-row flex-column align-items-center ">
+                        <p class="tag mb-lg-0 mb-3">Требования:</p>
+                        <ul class="tag-list d-flex justify-content-center ">
+                            <li class="list-item"><a href="" class="tag-link">React</a></li>
+                            <li class="list-item"><a href="" class="tag-link">Sass</a></li>
+                            <li class="list-item"><a href="" class="tag-link">Figma</a></li>
+                        </ul>
+                    </div>
+                    <a href="" class="more  mt-sm-3" >Подробнее →</a>
+                </div>
+                <div class="vacancy-card d-flex align-items-center flex-lg-row flex-sm-column">
+                    <a href="" class="vacancy-logo">
+                        <img class="vacancy-logo-link" src="img/vacancy.png" alt="img: vacancy logotip" width="100px" height="100px">
+                    </a>
+                    <div class="vacancy-text">
+                        <h3>Front-end разработчик</h3>
+                        <p class="vacancy-place d-sm-flex flex-sm-column  align-items-center">Технопарк, Казань</p>
+                    </div>
+                    <span class="salary  mt-sm-2 mb-sm-3">65 000 ₽</span>
+                    <div class="requirements d-flex flex-lg-row flex-column align-items-center ">
+                        <p class="tag mb-lg-0 mb-3">Требования:</p>
+                        <ul class="tag-list d-flex justify-content-center ">
+                            <li class="list-item"><a href="" class="tag-link">React</a></li>
+                            <li class="list-item"><a href="" class="tag-link">Sass</a></li>
+                            <li class="list-item"><a href="" class="tag-link">Figma</a></li>
+                        </ul>
+                    </div>
+                    <a href="" class="more mt-sm-3">Подробнее →</a>
+                </div>
+                <div class="vacancy-card d-flex align-items-center flex-lg-row flex-sm-column">
+                    <a href="" class="vacancy-logo">
+                        <img class="vacancy-logo-link" src="img/vacancy.png" alt="img: vacancy logotip" width="100px" height="100px">
+                    </a>
+                    <div class="vacancy-text">
+                        <h3>Front-end разработчик</h3>
+                        <p class="vacancy-place d-sm-flex flex-sm-column  align-items-center">Технопарк, Казань</p>
+                    </div>
+                    <span class="salary mt-sm-2 mb-sm-3">65 000 ₽</span>
+                    <div class="requirements d-flex flex-lg-row flex-column align-items-center ">
+                        <p class="tag mb-lg-0 mb-3">Требования:</p>
+                        <ul class="tag-list d-flex justify-content-center ">
+                            <li class="list-item"><a href="" class="tag-link">React</a></li>
+                            <li class="list-item"><a href="" class="tag-link">Sass</a></li>
+                            <li class="list-item"><a href="" class="tag-link">Figma</a></li>
+                        </ul>
+                    </div>
+                    <a href="" class="more mt-sm-3">Подробнее →</a>
+                </div>
+                <div class="vacancy-card d-flex align-items-center flex-lg-row flex-sm-column">
+                    <a href="" class="vacancy-logo">
+                        <img class="vacancy-logo-link" src="img/vacancy.png" alt="img: vacancy logotip" width="100px" height="100px">
+                    </a>
+                    <div class="vacancy-text">
+                        <h3>Front-end разработчик</h3>
+                        <p class="vacancy-place d-sm-flex flex-sm-column  align-items-center">Технопарк, Казань</p>
+                    </div>
+                    <span class="salary mt-sm-2 mb-sm-3">65 000 ₽</span>
+                    <div class="requirements d-flex flex-lg-row flex-column align-items-center ">
+                        <p class="tag mb-lg-0 mb-3">Требования:</p>
+                        <ul class="tag-list d-flex justify-content-center ">
+                            <li class="list-item"><a href="" class="tag-link">React</a></li>
+                            <li class="list-item"><a href="" class="tag-link">Sass</a></li>
+                            <li class="list-item"><a href="" class="tag-link">Figma</a></li>
+                        </ul>
+                    </div>
+                    <a href="" class="more mt-sm-3">Подробнее →</a>
+                </div>
+                <button class="more-vacancy ">Больше вакансий</button>
+            </div>
+    </section>
+        <!-- /.vacancy -->
+    <section class="new-vacancy">
+            <div class="container d-flex flex-column align-items-center">
+                <h1 class="new-vacancy-title">Подпишитесь на рассылку<br> с новыми вакансиями</h1>
+                <p class="new-vacancy-text">Мы отправляем по одному письму в неделю<br> с подходящими вам вакансиями</p>
+                <form action="#">
+                    <div class="input-group d-flex">
+                        <input type="mail" class="input-text" placeholder="E-mail">
+                            <button class="button-serch">
+                                <span class="submit-text">
+                                    <img class = "input-image " src="img/convert.svg" alt="">
+                                    <p class="d-lg-inline flex-lg-nowrap d-none " >Подписаться</p>
+                                </span>
+                            </button>
+                    </div>
+                </form>
+            </div>
+    </section>
+        <!-- /.new-vacancy -->
+    <footer class="footer py-5">
+            <div class="container">
+                <div class="row d-flex justify-content-lg-between">
+                    <div class="col-lg-2 col-md-6 d-flex flex-column align-items-center footer-title mb-3 mb-lg-0">
+                        <img src="img/logo.svg" alt="" class="footer-logo" width="132px">
+                        <span class="footer-text">
+                            <p>Сайт с вакансиями для тех,<br> кто ищет удаленную работу</p>
+                            <p>© 2021</p>
+                        </span>
+                    </div>
+                    
+                        <div class="col-lg-2 col-md-6 mail d-flex flex-column align-items-center mb-3 mb-lg-0">
+                            <h3 class="mb-0">Свяжитесь с нами</h3>
+                            <div class="footer-link d-flex flex-column ">
+                                <a href="">8 800 20 20 300</a>
+                                <a href="">info@findyourjob.net</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 mail d-flex flex-column align-items-center mb-3 mb-lg-0">
+                            <h3>Информация</h3>
+                            <div class="footer-link d-flex flex-column">
+                                <a href="">Обработка данных</a>
+                                <a href="">Конфиденциальнось</a>
+                                <a href="">Публичная оферта</a>
+                            </div>  
+                        </div>
+                        <div class="col-lg-2 col-md-6 mail d-flex flex-column align-items-center mb-3 mb-lg-0">
+                            <h3>Навигация по сайту</h3>
+                            <div class="footer-link d-flex flex-column">
+                                <a href="">Вакансии</a>
+                                <a href="">Компании</a>
+                                <a href="">Контакты</a>
+                            </div>
+                            
+                        </div>
+                    
+                </div>
+                
+            </div>
+            
+    </footer>
+        
+    
+</body>
+</html>

@@ -1,0 +1,383 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    }
+
+
+
+.header{
+    background-color:#EFEFEF;
+}
+.menu{
+    list-style-type: none;
+}
+
+.menu-item:not(:last-child){
+    margin-right: 20px;
+}
+
+.menu-burger-btn{
+    display: none;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #111238;
+}
+.button{
+    text-decoration: none;
+    display: inline-block;
+}
+.button-link{
+   padding: 10px;
+   color: #111238;
+   margin-right: 30px;
+}
+.autorized{
+    
+    color: #F2F3F6;
+    background: #1A75E8;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 30px;
+}
+
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 53px;
+    color: #111238;
+    margin-bottom: 15px;
+    
+}
+.hero-text{
+    font-size: 18px;
+    line-height: 140%;
+    padding: 0;
+    margin: 0;
+}
+
+.input-group{
+    max-width: 447px;;
+    background:  #FFFFFF;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 10px 10px 10px 25px;
+}
+
+.input-text{
+   
+    padding: 15px 0px;
+    border: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B2B2B2;
+}
+.input-text:focus{
+    outline: 3px solid rgba(47, 0, 255, 0.2);
+    box-shadow: 1px 1px 3px 3px , -1px -1px 3px 3px;
+}
+
+.input-image{
+    width: 15px;
+    height: 15px; 
+    margin-right: 10px;
+}
+.button-serch{
+    cursor: pointer;
+    background-color: #1A75E8;;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.submit-text{
+    color:#FFFFFF;
+    font-size: 16px;
+}
+
+.tags{
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.tag , .tag-link, .category-link{
+    color: #B2B2B2;;
+}
+.tag{
+    margin-right: 15px;
+}
+
+.tag-list{
+    list-style: none;
+}
+.list-item:not(:last-child){
+    margin-right: 10px;
+}
+.tag-link{
+    text-decoration: none;
+    border: 1px solid #B2B2B2;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 5px 10px;
+}
+
+.categories, .vacancy{
+    padding-top: 70px;
+    padding-bottom: 80px;
+    background-color: #FFFFFF;
+}
+.section-title{
+   margin-bottom: 40px;
+}
+
+.category-link{
+    text-decoration: none;
+    padding: 35px 55px;
+    background: #F2F3F6;
+    border-radius: 10px;
+    transition: .3s;
+}
+.category-link:hover{
+    background: #1A75E8;
+    color: #FFFFFF;
+    fill: #FFFFFF;
+}
+.category-text{
+    margin-top: 15px;
+}
+
+.vacancy-card{
+    padding: 30px;
+    border: 1px solid #B2B2B2;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.vacancy-logo-link{
+    display: block;
+    border: 1px solid #F2F3F6;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url('img/vacancy.png');
+    background-size: cover;
+    margin-right: 20px;
+}
+.vacancy-text{
+    font-size: 14px;
+    line-height: 17px;
+    color: #111238;
+}
+.vacancy-place{
+    margin-top: 10px;
+}
+.salary{
+    background: #1A75E8;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 10px 25px;
+}
+.vacancy-text{
+    margin-right: 48px;
+}
+.salary{
+    margin-right: 62px;
+}
+.more{
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.more-vacancy{
+    display: block;
+    background: #1A75E8;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: none;
+   
+    margin: auto;
+}
+
+.new-vacancy{
+    background: #EFEFEF;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.new-vacancy-title{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+}
+
+.new-vacancy-text{
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-text{
+    font-size: 12px;
+    line-height: 140%;
+    color: #B2B2B2;
+    margin-top: 20px;
+    display: block;
+}
+.footer-link{
+    margin-top: 20px;
+}
+
+.footer-link > a{
+    text-decoration: none;
+    color: #111238;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 10px;
+}
+.footer-link > a:hover{
+    text-decoration: underline;
+}
+
+.hero-image{width: 100%}
+
+.navbar-mobile{
+    display: none;
+}
+.close-btn{
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .salary{
+        margin-right: 10px;
+    }
+    .vacancy-text{
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 992px){
+    .navbar{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        transform: translate(-100%);
+        transition: transform 0.3s;
+    }
+    .close-btn{
+        display: inline;
+        cursor: pointer;
+    }
+    .logo-link{
+        text-align: center;
+    }
+    .close-btn{
+        text-align: right;
+        font-size: 50px;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        text-decoration: none;
+        color: #111;
+    }
+    .navbar-active{
+        transform: translate(0);
+    }
+    .menu-item:not(:last-child){
+        margin-right: 0px;
+    }
+    .button-link {
+        margin-right: 0;
+    }
+    .menu-item{
+        margin-bottom: 5px;
+    }
+    .menu-burger-btn{
+        display: block;
+        width: 24px;
+        height: 16px;
+        cursor: pointer;
+    }
+
+    .hero{
+        text-align: center;
+    }
+    .more{
+        margin: auto;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer-link{
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .close-btn{
+        display: inline;
+        cursor: pointer;
+    }
+    .category-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .category-card{
+        width: 250px;
+    }
+    .vacancy-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .vacancy-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .salary{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .requirements{
+        margin-bottom: 15px;
+    }
+    .more{
+        margin: auto;
+    }
+
+    .log-in{
+        display: none;
+    }
+
+    .menu-burger-btn{
+        display: block;
+        width: 24px;
+        height: 16px;
+        cursor: pointer;
+    }
+    .footer{
+        text-align: center;
+    }
+    .hero-image{
+        overflow: hidden;
+    }
+    
+    .input-group{
+        justify-content: center;
+    }
+    .footer-link{
+        margin-top: 5px;
+    }
+}
